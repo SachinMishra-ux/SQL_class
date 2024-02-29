@@ -1,0 +1,4 @@
+Please note that MySQL doesn't support "materialized views" in the same way as some other databases. 
+The above approach using CREATE TABLE with SELECT is a common workaround. 
+If you need to refresh the data, you would need to re-run the CREATE TABLE statement with the SELECT query. 
+Keep in mind the trade-offs between materialized views and using tables for your specific use case.
