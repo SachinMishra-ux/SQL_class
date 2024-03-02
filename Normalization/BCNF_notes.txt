@@ -1,0 +1,17 @@
+In the above table, student_id and subject together form the primary key because using student_id and subject; you can determine all the table columns.
+
+Another important point to be noted here is that one professor teaches only one subject, but one subject may have two professors.
+
+Which exhibit there is a dependency between subject and professor, i.e. subject depends on the professor's name.
+
+The table is in 1st Normal form as all the column names are unique, all values are atomic, and all the values stored in a particular column are of the same domain.
+
+The table also satisfies the 2nd Normal Form, as there is no Partial Dependency.
+
+And, there is no Transitive Dependency; hence, the table also satisfies the 3rd Normal Form.
+
+This table follows all the Normal forms except the Boyce Codd Normal Form.
+
+As you can see stuid, and subject forms the primary key, which means the subject attribute is a prime attribute.
+
+However, there exists yet another dependency - professor → subject.
